@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* navbar design start : */
+.bg {
+    background-color: #3b3a38;
+}
+.navbar {
+    padding: 10px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+nav .nav-item a:hover {
+    color: #777c7c;
+}
+/* navbar design ends */
+
+.cover-page {
+    /* margin-top: 250px; */
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(background.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.cover-page img {
+    margin-top: 300px;
+    border-radius: 50%;
+}
+.intro {
+    margin-top: 300px;
+    text-align: center;
+}
+.line1 {
+    padding-top: 100px;
+    font-size: 50px;
+    color: whitesmoke;
+}
+.line2 {
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+.about-me {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about-me-heading {
+    font-size: 40px;
+    padding: 50px;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 226px;
+    /* background-color: #bfb2aa; */
+}
+.about-me-content {
+    font-size: 20px;
+    padding: 50px;
+    text-align: justify;
+    margin-right: 30px;
+    background-color: #bfb2aa;
+}
+
+.container-projects {
+    background-color: #b4b0ac;
+    padding-bottom: 30px;
+    text-decoration: none;
+}
+
+.container-projects a {
+    text-decoration: none;
+    color: black;
+}
+
+.projects {
+    display: inline;
+    text-align: center;
+    font-size: 40px;
+    padding: 100px;
+    margin-top: 200px;
+    text-decoration: none;
+}
+
+.projects-div1 img {
+    width: 100%;
+    height: 250px;
+}
+.projects-div1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+}
+.card {
+    padding: 10px;
+    width: 400px;
+    margin: 10px;
+    box-sizing: border-box;
+    box-shadow: 10px 20px 30px #353432;
+    text-decoration: none;
+}
+.card-title {
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+}
+.card-description {
+    font-size: 15px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.contact-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: whitesmoke;
+    background-color: #353432;
+}
+.contact-me-heading {
+    font-size: 25px;
+    margin-top: 10px;
+}
+.footer {
+    font-size: 20px;
+    padding: 10px;
+}
+.contact-me-icons {
+    /* margin-top: 20px; */
+    display: flex;
+    justify-content: center;
+    background-color: #353432;
+}
+.contact-me-icons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: whitesmoke;
+    margin: 10px;
+    border-radius: 50%;
+}
+.contact-me-icons a i {
+    font-size: 2em;
+    color: #3b3a38;
+    opacity: 0.9;
+}
+
+.whole-container-skill {
+    padding: 50px;
+    background-color: #8c8980;
+    color: whitesmoke;
+}
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.stat {
+    padding: 10px;
+    display: flexbox;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.stat p {
+    text-align: center;
+}
+
+.container {
+    background-color: #c2c0c3;
+    width: 40%;
+    border-radius: 15px;
+}
+
+.skill {
+    background-color: #585a55;
+    color: white;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.cpp {
+    width: 80%;
+}
+.python {
+    width: 80%;
+}
+.java {
+    width: 70%;
+}
+.html {
+    width: 60%;
+}
+.ccw {
+    width: 60%;
+}
+@media (max-width: 800px) {
+    .ul-bg {
+        background-color: #777c7c;
+    }
+    .cover-page {
+        display: inline-block;
+        width: 100%;
+        height: 70vh;
+    }
+    .cover-page img {
+        display: flex;
+        width: 200px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    .intro {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .line1 {
+        padding-top: 40px;
+        font-size: 32px;
+        color: whitesmoke;
+    }
+    .line2 {
+        font-size: 17px;
+        color: whitesmoke;
+    }
+    .about-me {
+        display: contents;
+        padding: 0;
+        margin: 0;
+    }
+
+    .about-me-heading {
+        font-size: 20px;
+        padding: 0;
+        height: 100px;
+        line-height: 100px;
+        margin-bottom: 0;
+        background-color: whitesmoke;
+    }
+
+    .about-me-content {
+        margin-top: 0;
+        font-size: 20px;
+        padding: 25px;
+        text-align: justify;
+        background-color: #bfb2aa;
+        width: 100%;
+        margin-bottom: 10;
+    }
+    .projects {
+        font-size: 20px;
+        padding-top: 10px;
+        margin-top: 0px;
+    }
+    .hardcode-kortasi {
+        margin: 0;
+    }
+
+    .projects-div1 img {
+        width: 100%;
+        height: 200px;
+    }
+    .projects-div1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 0px;
+        margin-top: 0;
+        width: 100%;
+    }
+    .card {
+        width: 300px;
+    }
+    .container {
+        background-color: #c2c0c3;
+        width: 100%;
+        border-radius: 15px;
+    }
+}
