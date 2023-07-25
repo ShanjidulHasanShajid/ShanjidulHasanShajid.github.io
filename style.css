@@ -201,8 +201,9 @@ h3 {
     width: 60%;
 }
 .ccw {
-    width: 60%;
+    width: 20%;
 }
+
 @media (max-width: 800px) {
     .ul-bg {
         background-color: #777c7c;
